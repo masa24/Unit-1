@@ -1,0 +1,7 @@
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+print(a + b + c)
+```
+![solution to the quiz](quiz_1.jpg)
