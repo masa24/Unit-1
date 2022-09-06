@@ -1,5 +1,4 @@
 ```.py
-
 start = input('you are counting from,,,')
 end = input('you are ending at,,,')
 step = input('how many step,,,')
@@ -15,7 +14,6 @@ while not start.isdigit() or not end.isdigit() or not step.isdigit() or int(end)
         step = input('Please put a intiger for step')
     print(f'Your chance is {chance} times left')
     chance -= 1
-
 start = int(start)
 end = int(end)
 step = int(step)
@@ -23,5 +21,4 @@ print('This is the result')
 while start <= end:
     print(start)
     start+=step
-    
 ```
