@@ -14,6 +14,7 @@ while not start.isdigit() or not end.isdigit() or not step.isdigit() or int(end)
         step = input('Please put a intiger for step')
     print(f'Your chance is {chance} times left')
     chance -= 1
+
 start = int(start)
 end = int(end)
 step = int(step)
