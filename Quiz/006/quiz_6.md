@@ -1,0 +1,12 @@
+```.py
+a = input()
+sum = 0
+for i in a:
+    code = ord(i)
+    if code<91: #upper
+        sum += (code-90)
+    if code > 96:  # upper
+        sum += (code - 96)
+print(sum)
+```
+![solution to the quiz](quiz_6.jpg)
