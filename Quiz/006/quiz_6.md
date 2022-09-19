@@ -9,4 +9,4 @@ for i in a:
         sum += (code - 96)
 print(sum)
 ```
-![solution to the quiz](quiz_6.jpg)
+![solution to the quiz](quiz6.png)
