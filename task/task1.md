@@ -1,7 +1,6 @@
------------------------------
-coding task
+# coding task
 
-no.1
+# no.1
 ```.py
 color =str()
 num = int(input())
@@ -18,7 +17,7 @@ for a in range(1,num+1):
 ```
 ![solution to the quiz](t001.png)
 
-no.2
+# no.2
 ```.py
 a = int(input())
 if a%4==1:
@@ -33,6 +32,6 @@ print(a,color)
 ```
 ![solution to the quiz](t002.png)
 
-no.3
+# no.3
 
-no.4
+# no.4
