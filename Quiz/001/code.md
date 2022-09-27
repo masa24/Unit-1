@@ -16,4 +16,4 @@ print(out)
 ```
 ![solution to the quiz](quiz1.png)
 
-![solution to the quiz](f001.png)
+![solution to the quiz](001f.png)
