@@ -12,6 +12,9 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 Design statement:
 I will to design and make a electronic ledger for a client who is a crypto trader. The ledger will about managing transaction and statistics and is constructed using the software pycharm. It will take  a few days to make and will be evaluated according to the criteria bellow.
 
+My tool will be very effective because it completely matches thecliants need.
+It is able to make tranaction and check statistics at the same time.
+
 The crypto I am treating is Cardano
 Cardano is a blockchain platform for changemakers, innovators, and visionaries, with the tools and technologies required to create possibility for the many, as well as the few, and bring about positive global change.
 https://cardano.org/
@@ -161,5 +164,12 @@ def hash(code):
 ```
 Inorder to encrypt my code I used the hash library.
 
+## recource I used
 
+Works Cited
+“printで色をつける方法.” Python学習講座, 20 November 2021, https://www.python.ambitious-engineer.com/archives/3721. Accessed 10 October 2022.
+“Pythonで数値が整数か小数かを判定.” nkmk note, 18 March 2018, https://note.nkmk.me/python-check-int-float/. Accessed 10 October 2022.
+“【Python】ハッシュ値をもとめる（MD5・SHA256）.” 鎖プログラム, 31 January 2022, https://pg-chain.com/python-hash-hashlib. Accessed 10 October 2022.
+
+## testing video
 [Video of the Program](https://drive.google.com/file/d/1-MfpzhblU11c-1OaQhpMclTk8itSedwn/view?usp=sharing)
