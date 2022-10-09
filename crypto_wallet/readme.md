@@ -167,9 +167,14 @@ Inorder to encrypt my code I used the hash library.
 ## recource I used
 
 Works Cited
-“printで色をつける方法.” Python学習講座, 20 November 2021, https://www.python.ambitious-engineer.com/archives/3721. Accessed 10 October 2022.
-“Pythonで数値が整数か小数かを判定.” nkmk note, 18 March 2018, https://note.nkmk.me/python-check-int-float/. Accessed 10 October 2022.
-“【Python】ハッシュ値をもとめる（MD5・SHA256）.” 鎖プログラム, 31 January 2022, https://pg-chain.com/python-hash-hashlib. Accessed 10 October 2022.
+“printで色をつける方法.” Python学習講座, 20 November 2021, https://www.python.ambitious-engineer.com/archives/3721.
+Accessed 10 October 2022.
+
+“Pythonで数値が整数か小数かを判定.” nkmk note, 18 March 2018, https://note.nkmk.me/python-check-int-float/.
+Accessed 10 October 2022.
+
+“【Python】ハッシュ値をもとめる（MD5・SHA256）.” 鎖プログラム, 31 January 2022, https://pg-chain.com/python-hash-hashlib.
+Accessed 10 October 2022.
 
 ## testing video
 [Video of the Program](https://drive.google.com/file/d/1-MfpzhblU11c-1OaQhpMclTk8itSedwn/view?usp=sharing)
