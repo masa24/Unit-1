@@ -74,7 +74,7 @@ Justify the tools/structure of your solution
 
 
 # Criteria C: Planning
-
+Please see the full code in the file aboce(code).
 ## Tool used in unit 1
 ### Functions
 I used the function tool to manage each user action.
