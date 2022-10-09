@@ -51,11 +51,11 @@ Justify the tools/structure of your solution
 ![solution to the quiz](system_diagram.jpg)
 ## Flow Diagrams
 
-![solution to the quiz](register.png)
-![solution to the quiz](login.png)
-![solution to the quiz](action.png)
-![solution to the quiz](action_1_2.png)
-![solution to the quiz](action3.png)
+![solution to the quiz](register.drawio.png)
+![solution to the quiz](login.drawio.png)
+![solution to the quiz](action.drawio.png)
+![solution to the quiz](action_1_2.drawio.png)
+![solution to the quiz](action3.drawio.png)
 
 ## Record of Tasks
 | Task No | Planned Action                  | Planned Outcome                                                                          | Time estimate | Target completion date | Criterion |
