@@ -12,7 +12,10 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 Design statement:
 I will to design and make a electronic ledger for a client who is a crypto trader. The ledger will about managing transaction and statistics and is constructed using the software pycharm. It will take  a few days to make and will be evaluated according to the criteria bellow.
 
-** add a description of your coin and citation **
+The crypto I am treating is Cardano
+Cardano is a blockchain platform for changemakers, innovators, and visionaries, with the tools and technologies required to create possibility for the many, as well as the few, and bring about positive global change.
+https://cardano.org/
+
 | Group 1   |              |   | Group  2  |           |
 |-----------|--------------|---|-----------|-----------|
 | Developer | Digital Coin |   | Developer | Coin      |
