@@ -58,7 +58,105 @@ Justify the tools/structure of your solution
 ![solution to the quiz](action3.png)
 
 ## Record of Tasks
-| Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
-|---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 1       | Create success criteria                                       | To meet with the client and get approval on the criterias                                                       | 10min         | Sep 23                 | A         |
+| Task No | Planned Action                  | Planned Outcome                                                                          | Time estimate | Target completion date | Criterion |
+|---------|---------------------------------|------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
+| 1       | Create system diagram           | To have a clear idea of the hardware and software requirements for the proposed solution | 10min         | Sep 22                 | B         |
+| 2       | Interview with the Client       | To discuss client's needs and define success criteria                                    | 5min          | Sep 23                 | A         |
+| 3       | Code the introducion                   | Make a breif introduction of this tool and the selecteed crypto currency.                                       | 10min         | Sep 23                 | C         |
+| 4       | Code register and login function       | Add a funtion that allows to manage multiple acount with encrypted passcode.            | 60min         | Sep 27                 | C         |
+| 5       | Code Main Functions             | A function base of the program                                                           | 4hrs          | Sep 30                 | C         |
+| 6       |Create diagram | A function that creates a neet diagram.                                                   | 1hrs          | Oct 1                  | C         |
+| 7       | Form Test Plan                  | To a flexible test plan formed                                                           | 1hr           | Oct 1                  | B         |
+| 8       | Draw Flow Diagrams              | To have completed the flow diagrams for the functions of the program                     | 1.5hrs        | Oct 3                  | B         |
 
+
+# Criteria C: Planning
+
+## Tool used in unit 1
+### Functions
+I used the function tool to manage each user action.
+### For/while loops
+```.py
+while tos == '1' or tos == '2':
+    sep()
+    if tos == '1':
+        type = typecheck(input(color('\nEnter number\n1.enter\n2.withdraw\n3.check balance\n\nnum:','blue')))
+        action_general(type,name,date,state)
+    if tos == '2':
+        statistics(name)
+    sep()
+    tos = str(input(color('To continue with transaction enter 1\nTo continue statistics enter 2\nTo finish enter 3\n\nEnter: ', 'blue')))
+    while tos != '1' and tos != '2' and tos != '3':
+        tos = str(input(color('Please enter 1 or 2', 'red')))
+    if tos == '3':
+        print(color('Thank you for using!','cyan'))
+
+```
+I used the while loop and made the ledger able to make continuous tranaction.
+
+```.py
+    for i in data:
+        namedt = i.split(',')
+        #print(namedt)
+        #namedt = namedt.split(',')
+        if namedt[0] == usrname:
+            state = 'user'
+            break
+```
+I used for loops to get info from list more efficiently
+### Input Validation
+```.py
+def typecheck(type):
+    while type != '1' and type != '2' and type != '3':
+        type = input(color('put a number from 1-3: ', 'red'))
+    return type
+
+def isfloat(s):
+    try:
+        float(s)
+    except ValueError:
+        return False
+    else:
+        return True
+
+def typechecka(type):
+    while type != '1' and type != '2' and type != '3' and type != '4':
+        type = input(color('put a number from 1-3: ', 'red'))
+    return type
+
+def checkrate(a):
+    while not a.isdigit() and isfloat(a) == False:
+        a = input(color('Please enter a integer or float value: ','red'))
+    return a
+
+def intcheck(a):
+    while not a.isdigit():
+        a = input(color('please enter a integer value: ','red'))
+    return int(a)
+```
+I have multiple input validation. Many of them is checking if the input is a integer or not by .isdigit tool.
+### If statements
+```.py
+    if type == '1':
+        reason = 'enter'
+        with open(f'{name}.csv', 'a') as f:
+            f.write(date + ',')
+            f.write(str(value) + ',')
+            f.write(reason + ',')
+            if state == 'user':
+                f.write(str(balance_value + value) + ',')
+            else:
+                f.write(str(value) + ',')
+            state = 'user'
+```
+I used alot of if statement to separate action depending on the situation.
+
+### Encryption
+```.py
+import hashlib
+
+def hash(code):
+    code = hashlib.md5(code.encode()).hexdigest()
+    return code
+```
+Inorder to encrypt my code I used the hash library.
